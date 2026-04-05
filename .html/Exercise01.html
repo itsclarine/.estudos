@@ -8,6 +8,7 @@
       border-radius: 2px; /*arrendondar cantos*/
       cursor: pointer; /* cursor deixa 'clicável' */
       margin-right: 5px; /*cria uma margem na direita */
+      transition: opacity 1s; /* efeito de transição: mudança leve */
     }
 
     .subscribe-:hover{ /* passar o mouse*/
@@ -28,6 +29,8 @@
       height: 36px;
       width: 60px;
       cursor: pointer;
+      transition: background-color 0.10s, /*NÃO SE COLOCA NO HOVER PQ AO TIRAR O CURSOR, ELAS SOMEM AUTOMATICAMENTE */
+      color 1s;
     }
 
     .join-:hover{ /*invertendo as cores */
@@ -53,6 +56,9 @@
       margin-left: 8px;
     }
 
+    .tweet-:hover{
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);/*POSIÇÃO HORIZONTAL, VERTICAL, DESFOQUE, COR DA SOMBRA */ 
+    }
   </style>
 
   <button class="subscribe-">SUBSCRIBE</button>
