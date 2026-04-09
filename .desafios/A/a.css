@@ -9,7 +9,7 @@
 
 /*página-- */
 body{
-  background-color: rgb(225, 95, 95);
+  background-color: black;
 
 }
 
@@ -19,41 +19,53 @@ body{
   margin-top: 235px;
   margin-right: 972px;
 }
+
 /*conteudo */
 .titulo-{
   color: #ffffff;
+  font-size: 36px;
 
 }
 
 .titulo-cor{
   color: rgb(34,212,253);
+  font-size: 36px;
 
 }
 
 .conteudo-{
   color: #ffffff;
+  font-size: 20px;
   padding-top: 40px;
 }
 
 
 .redes-medidas{
-    display: flex;
-    flex-direction: column; /* Alinha um embaixo do outro */
-    align-items: flex-start; /* Garante que tudo fique grudado na esquerda */
-    gap: 32px; /* Aqui você controla a distância exata entre o texto e as redes */
-    margin-left: 20%; /* Afasta um pouco da borda da tela */
-    margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px; /* Aqui você controla a distância exata entre o texto e as redes */
+  margin-left: 20%; /* Afasta um pouco da borda da tela */
+  margin: 5px;
+}
+
+.subtitulo{
+  display: flex;
+  color: white;
+
 }
 
 
+/* redes sociais:
+  display: flex;
+  justify-content: center; (centralizar, mais facil de trabalhar)
+  gap: 16px; (espaçamento ente os blocos) 
+  border: 2px solid;
+  border-radius: 8px; 
+  width: 50% (aumentou 50% do espaço do display)
+  text-align: center;
+  padding: 20px 0px; 
+  font-size: 1.5rem;
+  text-decoration: none;
 
-
-/*texto */
-
-
-
-/*parágrafo */
-
-
-
-/*medidas - redes */
+*/
