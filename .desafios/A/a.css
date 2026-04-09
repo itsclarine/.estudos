@@ -43,16 +43,47 @@ body{
 .redes-medidas{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 32px; /* Aqui você controla a distância exata entre o texto e as redes */
-  margin-left: 20%; /* Afasta um pouco da borda da tela */
-  margin: 5px;
+  margin-top: -20px;
+  margin-right: 1085px;
+  margin-left: 461px;
+  margin-bottom: 110px;
 }
 
 .subtitulo{
   display: flex;
   color: white;
 
+}
+
+.Git-botao, .Linkedin-botao, .Twitch-botao{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 250px;
+
+}
+
+
+.imagem{
+  display: flex;
+  width: 50%;
+  align-items: center;
+  margin: 200px;
+  margin-top: 245px;
+  margin-right: 402px;
+  margin-left: 82px;
+  max-width: 300px;
+}
+
+.rodape-{
+  padding: 24px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: black;
+  background-color: rgb(34,212,253);
 }
 
 
@@ -68,4 +99,25 @@ body{
   font-size: 1.5rem;
   text-decoration: none;
 
+*/
+
+
+/* responsividade 
+@media (max-width: 1200px){
+  .cabecalho (nome da classe)
+    padding: 10%;  
+}
+
+  .cabecalho-menu{
+  justify-content: center;
+}
+
+  .apresentacao{
+  flex-direction: column-reverse;
+  padding: 10%;
+}
+
+  .apresentacao-conteudo{
+  width: auto;
+}
 */
