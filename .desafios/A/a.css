@@ -1,0 +1,59 @@
+/*CORES USADAS */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*página-- */
+body{
+  background-color: rgb(225, 95, 95);
+
+}
+
+ /*medidas- distâncias dos textos */
+.textos-medidas{
+  margin: 355px;
+  margin-top: 235px;
+  margin-right: 972px;
+}
+/*conteudo */
+.titulo-{
+  color: #ffffff;
+
+}
+
+.titulo-cor{
+  color: rgb(34,212,253);
+
+}
+
+.conteudo-{
+  color: #ffffff;
+  padding-top: 40px;
+}
+
+
+.redes-medidas{
+    display: flex;
+    flex-direction: column; /* Alinha um embaixo do outro */
+    align-items: flex-start; /* Garante que tudo fique grudado na esquerda */
+    gap: 32px; /* Aqui você controla a distância exata entre o texto e as redes */
+    margin-left: 20%; /* Afasta um pouco da borda da tela */
+    margin-top: 10%;
+}
+
+
+
+
+/*texto */
+
+
+
+/*parágrafo */
+
+
+
+/*medidas - redes */
