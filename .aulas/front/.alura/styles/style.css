@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --branco-principal: #ffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+    --botao-azul-efeito: #3c92fa;
+    --fonte-principal: 'Inter', sans-serif;
+    --fonte-size-principal: 16px;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: var(--fonte-size-principal);
+
+}
+
+.container{
+    height: 100vh; /* usa todo o espaço vertical e horizontal */
+    display: grid;
+    
+}
+
+.container-principal{
+    background-image: url("../imagem/Background@2x.png"); /* se não achar a pasta, colocar '../' */
+}
