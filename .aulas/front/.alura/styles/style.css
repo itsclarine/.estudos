@@ -129,8 +129,14 @@ body{
     align-items: center;
 }
 
+.descricao-texto-dois{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    margin: -8em 4em 0em 10em;
+}
+
 
 .imagem-telas{
     align-items: right;
-    margin: 0em 0em 0em 10em;
+    margin: -16em 0em 10em 10em;
 }
