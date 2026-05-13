@@ -166,3 +166,31 @@ section h2{
 .card:hover{
     transform: translateY(-10px);
 }
+
+.card ul{
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.card li{
+    margin: 12px 0;
+    color: #ddd;
+}
+
+.card button{
+    background-color: #00ff88;
+    color: #000000;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.preco{
+    color: #00ff88;
+    font-size: 30px;
+    font-weight: 600;
+}
