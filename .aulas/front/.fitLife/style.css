@@ -130,4 +130,39 @@ section h2{
     color: #00ff88;
     margin-bottom: 15px;
 }
- 
+
+.beneficio p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.planos{
+    background-color: #000000;
+}
+
+.subtitulo{
+    text-align: center;
+    color: #cccccc;
+    margin-bottom: 40px;
+}
+
+.cards-planos{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.card{
+    background-color: #111;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 18px;
+    padding: 30px;
+    border: 1px solid#222;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
