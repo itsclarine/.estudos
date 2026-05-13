@@ -50,7 +50,7 @@ body{
  
 .hero{
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.8)), url(../src/hero.avif);
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.8)), url(./src/hero.avif);
     background-size: cover;
     background-position: center;
     align-items: center;
