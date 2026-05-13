@@ -1,0 +1,132 @@
+html{
+    scroll-behavior: smooth;
+}
+ 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+ 
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    top: 0%;
+    width: 100%;
+    padding: 20px 8%;
+    background-color: #050505;
+    border-bottom: 1px solid #00ff88;
+}
+ 
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+ 
+.logo span{
+    color: #00ff88;
+}
+ 
+.menu ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+ 
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+ 
+.menu a:hover{
+    color: #00ff88;
+}
+ 
+ 
+.hero{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.8)), url(../src/hero.avif);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    padding: 120px 8%;
+}
+ 
+.heroConteudo{
+    max-width: 650px;
+}
+ 
+.hero h1{
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+ 
+.hero p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #dddddd;
+}
+ 
+.botao{
+    display: inline-block;
+    background-color: #00ff88;
+    color: #000000;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+ 
+.botao:hover{
+    background-color: #ffffff;
+    transform: scale(1.05);
+}
+ 
+ 
+section{
+    padding: 80px 8%;
+}
+ 
+section h2{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #cccccc;
+}
+ 
+.sobre{
+    background-color: #000000;
+}
+ 
+.beneficios{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+ 
+.beneficio{
+    background-color: #111;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #222;
+    width: 100%;
+    transition: 0.3s;
+}
+ 
+.beneficio:hover{
+    border-color: #00ff88;
+    transform: translateY(-8px);
+}
+ 
+.beneficio h3{
+    color: #00ff88;
+    margin-bottom: 15px;
+}
+ 
