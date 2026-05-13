@@ -201,3 +201,37 @@ button:hover{
     margin-bottom: 20px;
 }
 
+.estrutura{
+    background-color: #000000;
+}
+
+.imagens{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.imagem img{
+    display: flex;
+    height: 350px;
+    border-radius: 18px;
+    background-size: cover;
+    background-position: center;
+    align-items: end;
+    
+}
+
+.img1{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.img2{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.img3{
+    font-weight: 600;
+    font-size: 25px;
+}
