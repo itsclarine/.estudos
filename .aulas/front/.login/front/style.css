@@ -3,15 +3,27 @@
     padding: 0;
 }
 
+body{
+    background-color: #f8f8f8;
+}
+
 .fundo-{
-    background-color: #f0f0f0ef;
-    margin: 10%;
+    background-color: #fff;
+    margin-top: 12rem;
+    margin-left: 40%;
+    margin-bottom: 800px;
     align-items: center;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(154, 154, 154, 0.808);
+    width: 20%;
 }
 
-
+.fundo2{
+    margin-bottom:10rem;
+    margin-left: 10rem;
+    width: 24%;
+}
 
 .login{
     display: flex;
@@ -22,7 +34,20 @@
     gap: 25px;
     border-radius: 8px;
     font-family:Arial, Helvetica, sans-serif
+    
 }
+
+.login-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin: 30px;
+    gap: 25px;
+    border-radius: 8px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
 
 .input{
     display: flex;
@@ -36,6 +61,11 @@ label{
     font-weight: 600;
 }
 
+.termos{
+    color: gray;
+    font-weight: 400;
+}
+
 input{
     width: 100%;
     padding: 10px;
@@ -44,15 +74,31 @@ input{
     border-radius: 8px;
 }
 
+input.checkbox{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.checkboxdiv{
+    display: flex;
+    flex-direction:row;
+}
+
 .botao-{
     padding: 8px 100px;
     margin-left: 20px;
-    background-color: rgb(16, 84, 210);
+    background-color: #3483fa;
     color: white;
-    border: rgb(16, 84, 210) solid;
+    border: #3483fa solid;
     border-radius: 8px;
 }
 
 .botao-:hover{
     cursor: pointer;
+}
+
+.fundo{
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
