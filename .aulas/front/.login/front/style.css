@@ -5,6 +5,7 @@
 
 body{
     background-color: #f8f8f8;
+    overflow: hidden;
 }
 
 .fundo-{
@@ -98,7 +99,5 @@ input.checkbox{
 }
 
 .fundo{
-    display: flex;
-    justify-content: end;
-    align-items: center;
+
 }
