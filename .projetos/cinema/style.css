@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+}
+
+.menu-lista{
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  gap: 10px;
+  
+}
+
+.logo-imagem{
+  margin-right: 10px;
+  max-width: 60px;
+
+}
