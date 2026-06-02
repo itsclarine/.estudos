@@ -1,23 +1,101 @@
-*{
+* {
   margin: 0;
-  padding: 0;
+  border: 0;
 }
 
-.menu{
+body{
+  background-color: #14181c;
+}
+
+nav{
   display: flex;
+  background-color: #1c2227;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  gap: 5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo{
+  display: flex;
+  margin-left: 1rem;
+  color: white;
+}
+
+.logo-img{
+  width: 80px;
+  height: 30px;
+  padding: 5px;
+}
+
+.menu-links{
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.781);
+  font-weight: bold;
+}
+
+a:hover{
+  color: rgba(255, 255, 255, 0.979);
+}
+
+input{
+  border-radius: 100px;
+  width: 130px;
+  height: 19px;
+  font-size: 13px;
+  background-color: #dadada;
+}
+
+input:hover{
+  background-color: #f1f1f1f1;
+}
+
+.imagem-geral{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+}
+
+.imagem{
+  width: 1000px;
+  border-radius: 8px;
+  height: 400px;
+  box-shadow: 100px 100px 100px 50px rgba(19, 18, 18, 0.329);
+}
+
+.texto{
+  display: flex;
+  color: white;
+  align-items: center;
+  text-align: center;
   justify-content: center;
 }
 
-.menu-lista{
-  display: flex;
-  list-style: none;
-  padding: 10px;
-  gap: 10px;
-  
+.texto-{
+  font-size: 30px; 
 }
 
-.logo-imagem{
-  margin-right: 10px;
-  max-width: 60px;
+.botao{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 35px;
+}
 
+.botao-{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #00ac1c;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
 }
