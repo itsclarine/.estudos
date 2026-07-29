@@ -1,0 +1,132 @@
+/*fonte arial sans serif  */
+/*brasa.. = arial 13 */
+/*elas na quadra = 24 */
+/*pequeno texto = 12 */
+/*texto grande = 77 */
+/*paragrafo  */
+
+
+:root{
+  --laranja: #ff5a1f;
+  --preto: #080808;
+  --claro: #f5f1e8;
+  --font: ""
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    color: var(--claro);
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(./src/hero-basquete-feminino.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7rem;
+    padding: 20px;
+    color: var(--claro);
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid rgba(143, 141, 141, 0.466);
+}
+
+.logo-texto{
+    margin-left: 2.5rem;
+}
+
+.reta{
+    color: var(--laranja);
+    margin-right: 3px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+ul a{
+    text-decoration: none;
+    color: var(--claro);
+}
+
+.parte-um{
+    margin-left: 3rem;
+    color: var(--claro);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--laranja);
+}
+
+.titulo{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.texto-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(185, 184, 184);
+    border-left: 2px solid var(--laranja);
+    padding-left: 1rem;
+}
+
+.delas-span{
+    color: var(--laranja);
+}
+
+.botao-explorar-estilo{
+    font-weight: bold;
+    color: var(--claro);
+    padding: 15px;
+    border: 1px solid var(--claro);
+    border-radius: 2px;
+    margin-top: 1.5rem;
+    background-color: black;
+    width: 200px;
+    font-size: 12px;
+}
+
+.setinha{
+    color: var(--laranja);
+    margin-left: 20px;
+}
+
+.parte-dois{
+    background-color: white;
+}
+
+.dados-basquete{
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    margin-top: 2rem;
+}
+
+.number{
+    color: var(--laranja);
+    font-weight: 800;
+}
+
+.texto-dados{
+    color: gray;
+    font-size: 12px;
+    
+}
