@@ -19,12 +19,24 @@
 }
 
 body{
-    min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(./src/hero-basquete-feminino.png);
-    background-size: cover;
-    background-position: center;
-    
+
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(./src/hero-basquete-feminino.png) no-repeat center/cover;
+    height: 100vh;
 }
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #c9c9c9;
+    margin: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+    gap: 10rem;
+}
+
 
 .topo{
     display: flex;
@@ -36,9 +48,17 @@ body{
     border-bottom: 1px solid rgba(143, 141, 141, 0.466);
 }
 
-.logo-texto{
-    margin-left: 2.5rem;
+.parte-um{
+    margin-left: 7rem;
 }
+
+.logo{
+    color: var(--claro);
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 3rem;
+}
+
 
 .reta{
     color: var(--laranja);
@@ -60,12 +80,6 @@ ul a{
     color: var(--claro);
 }
 
-.fundo-um{
-    margin-left: 3rem;
-    color: var(--claro);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .sub-titulo{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -76,6 +90,7 @@ ul a{
 .titulo{
     font-size: 60px;
     font-weight: 800;
+    color: var(--claro);
 }
 
 .texto-1{
