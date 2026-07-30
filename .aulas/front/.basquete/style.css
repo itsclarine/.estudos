@@ -133,21 +133,20 @@ ul a{
     margin-top: 2rem;
     background-color: var(--preto);
     width: 650px;
-    height: 60px;
+    height: 80px;
     border: 1px solid var(--preto);
-    border-radius: 8px;
-    margin-bottom: 2.5rem;
+    margin-bottom: 6.5rem;
 }
 
 .number{
     color: var(--laranja);
     font-weight: 600;
     margin-left: 1rem;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .texto-dados{
-    color: rgb(102, 100, 100);
+    color: rgb(73, 71, 71);
     font-size: 12px;
     margin-left: 1rem;
     margin-top: 5px;
@@ -172,10 +171,41 @@ ul a{
 }
 
 .textos-parte-dois{
-    color: gray;
+    color: var(--preto);
 }
 
 
 .grade-img{
     display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 10px;
+
+}
+
+.grade{
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.img-{
+    width: 100%;
+    max-width: 400px;
+    min-width: 30px;
+    border-radius: 10px;
+}
+
+.nome-liga{
+    font-size: 13px;
+
+}
+
+.nome-time{
+    font-size: 20px;
+
+}
+
+.nome-pais{
+    font-size: 10px;
+   
 }
