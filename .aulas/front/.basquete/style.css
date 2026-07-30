@@ -19,14 +19,12 @@
 }
 
 body{
-    font-family: sans-serif;
-    color: var(--claro);
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(./src/hero-basquete-feminino.png);
     background-size: cover;
     background-position: center;
+    
 }
-
 
 .topo{
     display: flex;
@@ -62,7 +60,7 @@ ul a{
     color: var(--claro);
 }
 
-.parte-um{
+.fundo-um{
     margin-left: 3rem;
     color: var(--claro);
     font-family: Arial, Helvetica, sans-serif;
@@ -118,15 +116,51 @@ ul a{
     flex-direction: row;
     gap: 19px;
     margin-top: 2rem;
+    background-color: var(--preto);
+    width: 650px;
+    height: 60px;
+    border: 1px solid var(--preto);
+    border-radius: 8px;
+    margin-bottom: 2.5rem;
 }
 
 .number{
     color: var(--laranja);
-    font-weight: 800;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-top: 5px;
 }
 
 .texto-dados{
-    color: gray;
+    color: rgb(102, 100, 100);
     font-size: 12px;
-    
+    margin-left: 1rem;
+    margin-top: 5px;
+}
+
+.fundo-dois{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-dois{
+    color: var(--laranja);
+    font-weight: bold;
+}
+
+.titulo-dois{
+    color: var(--preto);
+    font-size: 60px;
+}
+
+.textos-parte-dois{
+    color: gray;
+}
+
+
+.grade-img{
+    display: flex;
 }
